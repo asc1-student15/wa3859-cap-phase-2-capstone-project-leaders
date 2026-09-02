@@ -4,15 +4,12 @@
 
 import QuoteForm from "./components/QuoteForm";
 import RecentQuotes from "./components/RecentQuotes";
-import { sampleQuotes } from "./sampleQuotes";
 
 // The product title is configured through an environment variable, not code.
 // You set the real value in .env on Day 2. Watch the browser tab change.
 const APP_TITLE =
   import.meta.env.VITE_APP_TITLE ?? "Evergreen Insurance - Get a Quote";
 document.title = APP_TITLE;
-
-<RecentQuotes quotes={sampleQuotes} heading="Latest quotes" />
 
 function App() {
   return (
@@ -34,17 +31,7 @@ function App() {
 
         <section className="quote-form-section">
           <QuoteForm />
-          <RecentQuotes quotes={sampleQuotes} />
-        </section>
-        <section className="quote-form-section">
-          <div className="quote-form">
-            <h2>Quote form arrives this week</h2>
-            <p>
-              The engineering team's QuoteForm and RecentQuotes components are
-              in your lab kit. As Delivery Lead, you assemble them into this
-              slot on Day 2.
-            </p>
-          </div>
+          <RecentQuotes quotes={[]} />
         </section>
       </main>
 
