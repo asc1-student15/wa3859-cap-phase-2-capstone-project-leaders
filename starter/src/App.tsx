@@ -29,7 +29,7 @@ function App() {
 
         <section className="quote-form-section">
           <QuoteForm />
-          <RecentQuotes quotes={[]} />
+          <RecentQuotes />
         </section>
       </main>
 
