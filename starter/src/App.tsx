@@ -5,8 +5,6 @@
 import QuoteForm from "./components/QuoteForm";
 import RecentQuotes from "./components/RecentQuotes";
 
-// The product title is configured through an environment variable, not code.
-// You set the real value in .env on Day 2. Watch the browser tab change.
 const APP_TITLE =
   import.meta.env.VITE_APP_TITLE ?? "Evergreen Insurance - Get a Quote";
 document.title = APP_TITLE;
