@@ -6,9 +6,9 @@ name: CI
 
 on:
   push:
-    branches: ["**/starter"]
+    branches: ["**"]
   pull_request:
-    branches: ["main/starter"]
+    branches: ["main"]
 
 jobs:
   build:
