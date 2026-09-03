@@ -1,7 +1,7 @@
 # Delivery Goal: Evergreen Quote
 
 ## Goal
-By Thursday EOD, the auto-updating Evergreen Quote React app is merged to main, after an approved PR with a green CI run is merged, and the build passes all checks.
+By Thursday EOD, the auto-updating Evergreen Quote React app is merged to main, after an approved PR with a green CI run, and the build passes all checks.
 
 ## "Done" looks like
 - The estimate updates live as a visitor types, for auto / home / life.

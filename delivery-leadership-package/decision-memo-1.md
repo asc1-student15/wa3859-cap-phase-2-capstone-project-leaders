@@ -1,4 +1,4 @@
-# Decision Memo: _short title here_
+# Decision Memo: Zip Code Additional Scope Request_
 
 **Date:** September 1, 2026
 **Author:** Tina Matthys
