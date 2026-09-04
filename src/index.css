@@ -1,12 +1,12 @@
 :root {
-  /* Liberty Mutual blue carried over from the Phase 1 brand refresh */
-  --primary: #0066b2;
-  --primary-dark: #00497f;
-  --text: #1c2b36;
-  --muted: #5b6b78;
+  /* Dark green theme */
+  --primary: #1f5c3f;
+  --primary-dark: #143d2a;
+  --text: #10261b;
+  --muted: #3e5a4d;
   --surface: #ffffff;
-  --page-bg: #f4f7fa;
-  --border: #d7e0e8;
+  --page-bg: #edf4ef;
+  --border: #c9d9cf;
   --form-padding: 24px;
 }
 
@@ -104,7 +104,7 @@ body {
   justify-content: space-between;
   margin: 20px 0 8px;
   padding: 14px 16px;
-  background: #eef5fb;
+  background: #e3efe7;
   border-radius: 8px;
 }
 
